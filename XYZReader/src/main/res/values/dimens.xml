@@ -8,5 +8,21 @@
     <dimen name="fab_press_translation_z">6dp</dimen>
     <dimen name="fab_margin">24dp</dimen>
     <dimen name="title_margin">40dp</dimen>
+    <dimen name="imageButtonlayoutwidth">56dp</dimen>
+    <dimen name="elevation16">16dp</dimen>
+    <dimen name="mainArticleAppBarHeight">175dp</dimen>
+    <dimen name="titlemarginstart">48dp</dimen>
+    <dimen name="titlemarginend">64dp</dimen>
+    <dimen name="recycleviewpaddingbottom">28dp</dimen>
+    <dimen name="recycleviewpaddingtop">28dp</dimen>
+    <dimen name="detailappbarheight">300dp</dimen>
+    <dimen name="detailToolbarHeight">150dp</dimen>
+    <dimen name="elevation4">4dp</dimen>
+    <dimen name="margin16">16dp</dimen>
+    <dimen name="elevation8">8dp</dimen>
+    <dimen name="margin8">8dp</dimen>
+    <dimen name="height0">0dp</dimen>
+    <dimen name="padding16">16dp</dimen>
+    <dimen name="padding4">4dp</dimen>
 
 </resources>

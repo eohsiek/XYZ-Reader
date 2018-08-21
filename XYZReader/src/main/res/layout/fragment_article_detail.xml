@@ -12,8 +12,9 @@
     <android.support.design.widget.AppBarLayout
         android:id="@+id/appbar"
         android:layout_width="match_parent"
-        android:layout_height="300dp"
+        android:layout_height="@dimen/detailappbarheight"
         android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:elevation="@dimen/elevation16"
         >
 
         <android.support.design.widget.CollapsingToolbarLayout
@@ -22,8 +23,8 @@
             android:layout_height="match_parent"
             app:layout_scrollFlags="scroll|exitUntilCollapsed"
             app:contentScrim="?attr/colorPrimary"
-            app:expandedTitleMarginStart="48dp"
-            app:expandedTitleMarginEnd="64dp"
+            app:expandedTitleMarginStart="@dimen/titlemarginstart"
+            app:expandedTitleMarginEnd="@dimen/titlemarginend"
             >
 
             <ImageView
@@ -49,8 +50,8 @@
             android:id="@+id/article_body"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:padding="16dp"
-            android:text="This is a test"
+            android:padding="@dimen/padding16"
+            android:text="@string/teststring"
             android:textColor="@color/primary_text"
             android:textAppearance="@style/TextAppearance.AppCompat.Medium"/>
     </android.support.v4.widget.NestedScrollView>
@@ -58,9 +59,8 @@
     <android.support.v7.widget.Toolbar
         android:id="@+id/ioexample.toolbar"
         android:layout_width="match_parent"
-        android:layout_height="150dp"
-        android:background="@color/primary_dark"
-        android:elevation="4dp"
+        android:layout_height="@dimen/detailToolbarHeight"
+        android:background="@color/primary"
         app:layout_collapseMode="pin"
         app:layout_anchor="@id/appbar"
         app:layout_anchorGravity="bottom"
@@ -71,7 +71,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="bottom"
-            android:layout_marginBottom="8dp"
+            android:layout_marginBottom="@dimen/margin8"
             android:minHeight="?android:attr/actionBarSize"
             android:orientation="vertical"
             >
@@ -102,10 +102,10 @@
     <android.support.design.widget.FloatingActionButton
         android:id="@+id/fab"
         android:layout_width="wrap_content"
-        app:elevation="8dp"
+        app:elevation="@dimen/elevation8"
         android:background="@color/theme_accent"
         android:layout_height="wrap_content"
         android:layout_gravity="end|bottom"
         android:src="@drawable/ic_share"
-        android:layout_margin="16dp" />
+        android:layout_margin="@dimen/margin16" />
 </android.support.design.widget.CoordinatorLayout>
