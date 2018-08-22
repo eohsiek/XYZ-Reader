@@ -24,5 +24,7 @@
     <dimen name="height0">0dp</dimen>
     <dimen name="padding16">16dp</dimen>
     <dimen name="padding4">4dp</dimen>
+    <dimen name="appbarElevation">16dp</dimen>
+    <dimen name="elevationFab">6dp</dimen>
 
 </resources>
